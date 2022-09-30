@@ -23,11 +23,22 @@ body {
 
 .section-title {
   color: #2ddf5c;
+  text-align: center;
 }
 
 #product-overview h1 {
   font-family: "Anton";
   color: white;
+}
+
+.plan {
+  background: #d5ffdc;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
 }
 
 .main-header {
