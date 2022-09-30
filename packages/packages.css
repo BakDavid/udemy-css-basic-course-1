@@ -53,6 +53,12 @@ main {
   text-align: right;
 }
 
+#free:hover,
+#free:active {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-color: #ff5454;
+}
+
 #premium {
   background: rgba(14, 79, 31, 0.95);
 }
