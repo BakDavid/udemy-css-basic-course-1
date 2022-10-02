@@ -104,7 +104,6 @@ body {
   margin: 0.6rem 0;
 }
 
-
 .main-header__brand {
   color: #0e4f1f;
   text-decoration: none;
@@ -252,4 +251,8 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
   color: #ccc;
+}
+
+.open {
+  display: block !important;
 }
