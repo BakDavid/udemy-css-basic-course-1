@@ -12,7 +12,7 @@
   width: 100%;
   height: 33vh;
   /* padding: 1.2rem; */
-  margin-top: 2.75rem;
+  /* margin-top: 3.5rem; */
   position: relative;
   /* border: 5px dashed #ff1b68; */
   /* border: 10px black solid; */
@@ -125,7 +125,7 @@
   font-size: 20px;
 } */
 
-@media (min-width: 40rem) and (min-height: 60rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
     height: 40vh;
     background-position: 50% 25%;
