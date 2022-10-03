@@ -33,14 +33,14 @@ main {
 }
 
 .signup-form input:not([type="checkbox"]),
-.signup-form select{
+.signup-form select {
   border: 1px solid #ccc;
   padding: 0.2rem 0.5rem;
   font: inherit;
 }
 
 .signup-form input:focus,
-.signup-form select:focus{
+.signup-form select:focus {
   outline: none;
   background: #d8f3df;
   border-color: #2ddf5c;
@@ -61,12 +61,19 @@ main {
   border: #0e4f1f;
 }
 
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form :invalid {
+  border-color: red !important;
+  background: #faacac;
+}
+
 .signup-form button[type="submit"] {
   display: block;
   margin-top: 1rem;
 }
 
-@media (min-width: 40rem){
+@media (min-width: 40rem) {
   .signup-form {
     margin: auto;
     width: 25rem;
