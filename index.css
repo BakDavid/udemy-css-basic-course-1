@@ -125,7 +125,7 @@
   font-size: 20px;
 } */
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and (min-height: 60rem) {
   #product-overview {
     height: 40vh;
     background-position: 50% 25%;
@@ -135,6 +135,15 @@
     font-size: 3rem;
   }
 
+  .key-feature {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    max-width: 25rem;
+  }
+}
+
+@media (min-width: 40rem) {
   .plan__list {
     width: 100%;
     text-align: center;
