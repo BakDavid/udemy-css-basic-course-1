@@ -59,6 +59,7 @@ main {
 
 .testimonial__text {
   margin: 0.2rem;
+  /* white-space: pre-line; line breaks will maintain their original look */
 }
 
 @media (min-width: 40rem) {
