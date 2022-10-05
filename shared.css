@@ -190,12 +190,16 @@ main {
 }
 
 .mobile-nav__items {
-  width: 90%;
+  /* width: 90%; */
   height: 100%;
   list-style: none;
-  margin: 10% auto;
+  /* margin: 10% auto; */
   padding: 0;
-  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .mobile-nav__item {
@@ -244,12 +248,13 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .main-footer__link {
-  display: block;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .main-footer__link a {
@@ -272,15 +277,15 @@ main {
   }
 
   .main-nav {
-    /* display: inline-block;
-    text-align: right;
-    width: calc(100% - 44px);
-    vertical-align: middle; */
     display: flex;
   }
 
   .main-footer__link {
-    display: inline-block;
     margin: 0 1rem;
+  }
+
+  .main-footer__links {
+    flex-direction: row;
+    justify-content: center;
   }
 }
