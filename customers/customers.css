@@ -75,10 +75,10 @@ main {
   }
 
   .testimonial__image-container {
-    width: 66%;
+    width: 50%;
   }
 
   .testimonial__info {
-    width: 30%;
+    width: 25%;
   }
 }
