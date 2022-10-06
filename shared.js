@@ -5,6 +5,7 @@ let selectPlanButton = document.querySelectorAll(".plan button.button");
 
 let toggleButton = document.querySelector(".toggle-button");
 let mobileNav = document.querySelector("nav.mobile-nav");
+let ctaButton = document.querySelector(".main-nav__item--cta");
 // console.dir(backdrop);
 // console.dir(selectPlanButton);
 for (let i = 0; i < selectPlanButton.length; i++) {
@@ -39,4 +40,14 @@ toggleButton.addEventListener("click", function () {
   // backdrop.style.display = "block";
   mobileNav.classList.add("open");
   backdrop.classList.add("open");
+});
+
+ctaButton.addEventListener("animationstart", function (event) {
+  console.log("Animation starterd", event);
+});
+ctaButton.addEventListener("animationend", function (event) {
+  console.log("Animation ended", event);
+});
+ctaButton.addEventListener("animationiteration", function (event) {
+  console.log("Animation iteration", event);
 });
